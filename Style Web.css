@@ -1,0 +1,229 @@
+body{
+  padding: 0;
+}
+div.menu{
+  width: 100%;
+  background-color: #a30023
+}
+
+div.menu ul{
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+div.menu ul li{
+  float: right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+  border-bottom: 2px Solid #fff;
+}
+div.menu img{
+  width: 120px;
+  height: auto;
+}
+div.header{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+}
+div.header h1{
+  height: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 200px;
+}
+div.gelap{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  top: 100px;
+  opacity: 0.7;
+}
+div.header h1 label{
+  font-size: 30px;
+}
+div.header h1 span{
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 500px;
+  font-size: 15px;
+}
+div.header h1 img{
+  width: 100px;
+  height: auto;
+}
+div.about{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+div.about .left{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+div.about .left h1{
+  text-align: right;
+  color: #000;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  padding-left: 50%;
+  border-right: 5px solid red;
+  padding-right: 10px;
+}
+div.about .left p{
+  text-align: right;
+  color: grey;
+  font-size: 20px;
+}
+div.about .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+div.about .right img{
+  width: 400px;
+  height: auto;
+  border: 10px solid grey;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+div.layanan{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 700px;
+}
+div.layanan div.box{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+}
+div.layanan div.box div.bunder{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+}
+div.bunder span{
+  margin: auto;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+div.box .deskripsi{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+div.penghargaan{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: url(profil.png)no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+div.gelap{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear;
+}
+div.penghargaan div.left{
+  width: 50%;
+  height: auto;
+  margin-top: 200px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  border-right: 10px solid red;
+  padding-right: 20px;
+  float: left;
+}
+div.penghargaan .left h1{
+  margin: 2px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+div.penghargaan .left h2{
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: grey;
+}
+div.penghargaan .left h3{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 10;
+}
+div.program{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 500px;
+}
+div.program div.bOx{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+}
+div.program div.bOx div.oval{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+}
+div.oval span{
+  margin: auto;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+div.bOx .deskripsi1{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+div.bOx .deskripsi2{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
